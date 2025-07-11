@@ -29,6 +29,7 @@ Plug 'mxw/vim-jsx', {'for': ['javascript', 'jsx']}
 Plug 'othree/html5.vim', {'for': 'html'}
 Plug 'vim-python/python-syntax', {'for': 'python'}
 Plug 'vim-syntastic/syntastic', {'on': 'SyntasticCheck'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 "----------Theme-----------"
